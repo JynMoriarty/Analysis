@@ -1,0 +1,5 @@
+pandas 
+streamlit 
+PIL 
+numpy 
+scikit-learn==1.1.1
