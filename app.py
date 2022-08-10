@@ -47,7 +47,7 @@ sqm_basement = st.number_input ("Surface de la cave (en m2) : ",min_value =0,val
 zipcode = st.selectbox("Choissisez le code postal de votre maison (format :98XXX): ",zipcode)
 sqm_living15  =st.number_input("Surface habitable moyen local (en m2 : ",min_value =1,value=120,step=1)
 sqm_lot15 = st.number_input ("Surface du Terrain moyen local (en m2) : ",min_value =1,value=200,step=1)
-house_age =st.number_input("Age de la maison : ",min_value=0,value=10,step=1)
+house_age =st.selectbox("Age de la maison (0:(0-20),1:(20-40),2:(40-60),3:(60-80),4:(80-100),5:(100-115)",[0,1,2,3,4,5])
 renovated = st.selectbox("Est-ce que votre maison a été rénové ? ",["Oui","Non"])
 if renovated == "Oui":
         renovated =1
