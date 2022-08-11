@@ -4,6 +4,7 @@ from PIL import Image
 import pickle
 image = Image.open('bellevue.jpg')
 import numpy as np
+import pydeck as pdk
 p1 = open('modelRid.pkl', 'rb') 
 ridge_model = pickle.load(p1)
 p2 = open("modellr.pkl","rb")
@@ -12,7 +13,6 @@ p3 = open("modelLasso.pkl","rb")
 lasso_model = pickle.load(p3)
 p4= open("modelEN.pkl","rb")
 elastic_model = pickle.load(p4)
-
 st.title("Indicateur de prix d'une maison dans le comté de King(Washington")
 st.image(image, caption='Bellevue,City in King County')
 
