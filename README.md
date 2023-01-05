@@ -4,7 +4,7 @@ README
 
 # Analyse de donnée des maisons dans le comté de King
 
-Ce Projet est permet de comprendre la conception d'une analyse(amateur) d'un dataset.
+Ce Projet permet de comprendre la conception d'une analyse(amateur) d'un dataset.
 
 ## Pré-Requis 
 
